@@ -6,11 +6,10 @@ Simple Python3 project to encrypt and decrypt data using AES 128bit ( secret key
 
 ### Installing
 
-Install Python3
-
+### macOS
 * macOS - install homebrew
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 * Get python3 on terminal
 ```
