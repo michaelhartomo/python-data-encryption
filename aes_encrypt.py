@@ -2,14 +2,14 @@ import sys
 import os
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
-# import tkinter as tk
-# from tkinter import filedialog
+import tkinter as tk
+from tkinter import filedialog
 
-# root = tk.Tk()
-# root.withdraw()
+root = tk.Tk()
+root.withdraw()
 
-# file_data = filedialog.askopenfilename()
-file_data = "file_test/avatar.jpg"
+file_data = filedialog.askopenfilename()
+# file_data = "file_test/avatar.jpg"
 file_secret_key = "aes_secret_key.txt"
 
 # Check if file exist, if not exit
