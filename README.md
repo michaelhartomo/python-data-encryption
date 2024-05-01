@@ -18,7 +18,7 @@ brew install python3
 ```
 * Get pip3 on terminal
 ```
-brew install python3
+brew postinstall python3
 ```
 
 
