@@ -31,6 +31,8 @@ pip3 uninstall pycryptodome
 ```
 pip3 install pycryptodome
 ```
+
+## How to Use
 ### Encrypt File
 
 * Open the terminal on the project folder
