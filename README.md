@@ -36,6 +36,7 @@ pip3 install pycryptodome
 
 * Open the terminal on the project folder
 * Edit the aes_secret_key.txt to your new secret key [you need it to decrypt the file]
+* If aes_secret_key.txt not exist, the app will create a random 16 characters for the secret_key to [aes_secret_key_generated.txt]
 ```
 python3 aes_encrypt.py
 ```
